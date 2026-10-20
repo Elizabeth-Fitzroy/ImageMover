@@ -1,3 +1,4 @@
+﻿# Android Studio生成ファイル
 *.iml
 .gradle
 /local.properties
@@ -13,3 +14,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# ビルドキャッシュ
+**/build/
+**/generated/
+
+# APIキーなど機密情報
+google-services.json
+keystore.properties
+*.jks
+*.keystore

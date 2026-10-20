@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "ImageMover"
 include(":app")
+include(":setbookscanner")
+project(":setbookscanner").projectDir = file("../SetBookScanner/app")
